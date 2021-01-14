@@ -185,7 +185,7 @@ body {
   @media (min-width: 768px) and (max-width: 991px) {
     .navbar-brand { 
       font-size: 50px;
-      font-family: 'Special Elite', cursive;
+      font-family: 'Noto Sans KR', sans-serif;
       text-shadow: 3px 3px 10px black;
       text-align: center;
     }
@@ -246,9 +246,9 @@ body {
 
 /***** For Small Devices *****/
   @media (max-width: 767px) {
-    .navbar-brand { 
+  .navbar-brand { 
     font-size: 30px;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
     text-shadow: 3px 3px 10px black;
   }
 
