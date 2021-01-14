@@ -141,12 +141,12 @@ h1 {
   
   /********** For Medium Devices **********/
   @media (min-width: 768px) and (max-width: 991px) {
-     .navbar-brand { 
-    font-size: 50px;
-    font-family: 'Special Elite', cursive;
-    text-shadow: 3px 3px 10px black;
-    text-align: center;
-  }
+    .navbar-brand { 
+      font-size: 50px;
+      font-family: 'Noto Sans KR', sans-serif;
+      text-shadow: 3px 3px 10px black;
+      text-align: center;
+    }
   
   .nav-link {
     text-align: center;
@@ -207,12 +207,11 @@ box-shadow: 3px 3px 10px white;
 }
 /***** For Small Devices *****/
   @media (max-width: 767px) {
- 
-  .navbar-brand { 
-    font-size: 30px;
-    font-family: 'Special Elite', cursive;
-    text-shadow: 3px 3px 10px black;
-  }
+    .navbar-brand { 
+      font-size: 30px;
+      font-family: 'Noto Sans KR', sans-serif;
+      text-shadow: 3px 3px 10px black;
+    }
 
   .nav-link {
     text-align: center;
