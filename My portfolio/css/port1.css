@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    height: 100%;
+    background: radial-gradient(#faf8f9,#4b4a4a) no-repeat fixed center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar-brand { 
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-shadow: 3px 3px 10px black;
+}
+
+#header {
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px lightgray;
+}
+
+#header:hover {
+  cursor: pointer;
+}
+
+.nav-link {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.dropdown-menu {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    background-color: lightgray;
+}
+
+#resume {
+  font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px black;
+    text-decoration: none;
+}
+
+#resume:hover {
+    color: white;
+    background-color: red;
+    color: white;
+}
+
+#me {
+  display: inline;
+  width: 500px;
+  float: right;
+  margin-top: 5%;
+  margin-right: 10%;
+  
+  
+}
+
+#btn1 {
+    margin-left: 35%;
+    margin-top: 15%;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    background-color: rgb(70, 68, 68);
+    box-shadow: 2px 2px 5px black;
+    font-size: 20px;
+}
+
+#glyph {
+    width:40px;
+}
+
+#btn1:hover {
+    color:yellow;
+}
+
+#btn2 {
+    margin-left: 30%;
+    margin-top: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    background-color: yellow;
+    box-shadow: 2px 2px 5px black;
+    font-size: 20px;
+}
+
+#btn2:hover {
+    background-color: red;
+    color: white;
+}
+
+#email {
+    color: black;
+    text-decoration: none;
+}
+
+#email:hover {
+    color: white;
+    text-decoration: none;
+}
+#btn3 {
+    margin-left: 35%;
+    margin-top: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    background-color: lightblue;
+    box-shadow: 2px 2px 5px blue;
+    font-size: 20px;
+}
+
+#btn3:hover {
+    color: white;
+    background-color: rgb(80, 4, 80);
+    box-shadow: 2px 2px 5px white;
+}
+
+#myinfo {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+    position: absolute;
+    float: left;
+    display: block;
+    margin-left: 5%;
+    margin-right: 44%;
+    margin-top: 50px;
+} 
+  /********** For Large Devices **********/
+  @media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+
+    #jeff {
+    display: none;
+  }
+}
+  
+  
+  /********** For Medium Devices **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand { 
+      font-size: 50px;
+      font-family: 'Special Elite', cursive;
+      text-shadow: 3px 3px 10px black;
+      text-align: center;
+    }
+  
+    .nav-link {
+      text-align: center;
+      font-size: 15px;
+    }
+
+    #resume {
+      font-size: 15px;
+      
+    }
+
+    .btn {
+      margin-left: 36%;
+    }
+
+    .dropdown-menu {
+    text-align: center;
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .dropdown-item {
+    color:lightgray;
+  }
+
+  #btn1 {
+    margin-left: 30%;
+  }
+
+  #me {
+    float: right;
+    width: 300px
+  }
+
+  #btn2 {
+    margin-left: 15%;
+  }
+
+  #btn3 {
+    margin-left: 32%;
+  }
+
+  p {
+    font-size: 15px;
+   }
+
+  #navBarDropdown {
+     text-align: center;
+  }
+
+  #jeff {
+    display: none;
+  }
+}
+
+/***** For Small Devices *****/
+  @media (max-width: 767px) {
+    .navbar-brand { 
+    font-size: 30px;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 3px 3px 10px black;
+  }
+
+  .nav-link {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #resume {
+    font-size: 15px;
+  }
+
+  .dropdown-menu {
+    text-align: center;
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .dropdown-item {
+    color:lightgray;
+  }
+
+  .btn {
+      margin-left: 23%;
+  }
+
+  #me {
+      display: none;
+  }
+
+  #glyph {
+    width:80px;
+  }
+
+  #btn1, #btn2, #btn3 {
+    position: relative;
+    display: inline-block;
+  }
+
+  #btn1 {
+    margin-left: 30%;
+    font-size: 15px;
+  }
+
+  #btn2 {
+    margin-left: 15%;
+    font-size: 15px;
+  }
+
+  #btn3 {
+    margin-left: 30%;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: justify;
+    position: relative;
+    display: inline;
+    margin-left: 1%;
+    margin-right: 0%;
+    width: fit-content;
+  } 
+
+  #myinfo {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #myinfo::first-letter {
+      font-size: 30px;
+      text-shadow: 5px 5px 10px white;
+  }
+
+  #jeff {
+    width: 150px;
+    display: inline;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    box-shadow: 3px 3px 10px black;
+  }
+
+
+    
+  
+
+}
+

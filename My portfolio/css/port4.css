@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    height: 100%;
+    background: radial-gradient(#faf8f9,#4b4a4a) no-repeat fixed center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar-brand { 
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-shadow: 3px 3px 10px black;
+}
+
+#header {
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px lightgray;
+}
+
+header:hover {
+  cursor: pointer;
+}
+
+.nav-link {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.dropdown-menu {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    background-color: lightgray;
+}
+
+#resume {
+  font-family: 'Noto Sans KR', sans-serif;
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px black;
+    text-decoration: none;
+}
+
+#resume:hover {
+    color: white;
+    background-color: red;
+    color: white;
+}
+
+/* Images */
+#image1 {
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+    box-shadow: 3px 3px 10px black;
+    width: 200px;
+}
+
+#image2 {
+  margin-right: 5%;
+  float: right;
+  box-shadow: 3px 3px 10px black;
+  width: 250px;
+}
+
+#image3 {
+  margin-top: 2%;
+  margin-left: 5%;
+  float: left;
+  box-shadow: 3px 3px 10px black;
+  width: 250px;
+}
+
+#image4 {
+  margin-right: 5%;
+  float: right;
+  box-shadow: 3px 3px 10px black;
+  width: 300px;
+  cursor: pointer;
+}
+
+#image4:hover {
+  box-shadow: 3px 3px 10px white;
+}
+/* Body */
+
+h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: yellow;
+  text-shadow: 3px 3px 10px black;  
+}
+    
+#par1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 23%;
+  margin-right: 5%;
+  margin-top: 5%;
+  }
+
+#par2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  margin-right: 28%;
+  margin-left: 5%;
+  }
+
+#par3 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+#par4 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  margin-right: 28%;
+  margin-left: 5%;
+}
+    
+
+  /********** For Large Devices **********/
+  @media (min-width: 992px) {
+    
+  }
+  
+  
+  /********** For Medium Devices **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+     .navbar-brand { 
+    font-size: 50px;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 3px 3px 10px black;
+    text-align: center;
+  }
+  
+  .nav-link {
+    text-align: center;
+    font-size: 15px;
+  }
+
+
+   .btn {
+       margin-left: 38%;
+       font-size: 15px;
+   }
+
+  .dropdown-menu {
+    text-align: center;
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .dropdown-item {
+    color:lightgray;
+  }
+
+  /* Images */
+    #image1 {
+      margin-top: 2%;
+      margin-left: 5%;
+      float: left;
+      box-shadow: 3px 3px 10px black;
+      width: 200px;
+    }
+
+    #image2 {
+margin-right: 5%;
+float: right;
+box-shadow: 3px 3px 10px black;
+width: 250px;
+}
+
+#image3 {
+margin-top: 2%;
+margin-left: 5%;
+float: left;
+box-shadow: 3px 3px 10px black;
+width: 250px;
+}
+
+#image4 {
+margin-right: 5%;
+float: right;
+box-shadow: 3px 3px 10px black;
+width: 300px;
+cursor: pointer;
+}
+
+#image4:hover {
+box-shadow: 3px 3px 10px white;
+}
+}
+/***** For Small Devices *****/
+  @media (max-width: 767px) {
+ 
+  .navbar-brand { 
+    font-size: 30px;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 3px 3px 10px black;
+  }
+
+  .nav-link {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .btn {
+    margin-left: 25%;
+    font-size: 15px;
+  }
+
+   .dropdown-menu {
+    text-align: center;
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .dropdown-item {
+    color:lightgray;
+  }
+
+  /* Images */
+#image1 {
+  margin-top: 2%;
+  margin-left: 5%;
+  float: left;
+  box-shadow: 3px 3px 10px black;
+  width: 100px;
+}
+
+#image2 {
+margin-right: 5%;
+float: right;
+box-shadow: 3px 3px 10px black;
+width: 250px;
+}
+
+#image3 {
+margin-top: 2%;
+margin-left: 5%;
+float: left;
+box-shadow: 3px 3px 10px black;
+width: 250px;
+}
+
+#image4 {
+margin-right: 5%;
+float: right;
+box-shadow: 3px 3px 10px black;
+width: 300px;
+cursor: pointer;
+}
+
+#image4:hover {
+box-shadow: 3px 3px 10px white;
+}
+
+}
